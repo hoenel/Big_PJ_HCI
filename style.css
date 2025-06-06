@@ -1,0 +1,165 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px 5%;
+  background-color: #fff;
+  border-bottom: 5px solid #000;
+}
+.logo {
+  font-family: 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+nav {
+  margin-left: 30px;
+  /*font-weight: bold;*/
+}
+nav a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.icons {
+  margin-left: auto;
+  display: flex;
+}
+.icons img {
+  width: 20px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+/* Main title */
+.main-title {
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+/* Tabs: thu hẹp và căn giữa */
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3c4b;
+  color: #fff;
+  padding: 14px 10px ;       
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* giữ nguyên text-align, flex như hiện tại */
+.tabs span {
+  flex: 1;
+  text-align: center;
+}
+
+/* Empty cart: căn giữa */
+.empty-cart {
+  text-align: center;
+  padding: 80px 0;       /* chỉ padding trên/dưới */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Checkout button: căn giữa khung và đẩy nút sang phải */
+.checkout-btn {
+  text-align: right;
+  padding: 20px 0;       /* chỉ padding trên/dưới */
+}
+.checkout-btn button {
+  background-color: #3c3c4b;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  padding: 60px 10%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+footer > div {
+  flex: 1;
+  max-width: 200px;
+}
+footer .logo {
+  font-family: 'Times New Roman', serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+footer p {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin: 12px 0;
+  font-size: 12px;
+  color: #1E1E1E;
+}
+footer ul li strong {
+  display: block;       /* lên 1 dòng riêng */
+  font-size: 14px;      /* tăng size */
+  font-weight: 600;     /* đậm hơn chút */
+  margin-bottom: 6px;   /* khoảng cách tới các link */
+}
+footer ul li a {
+  font-size: 12px;
+  font-weight: 300;     /* light */
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+}
+.social-icons img {
+  width: 20px;
+  margin-right: 12px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+/* Copyright */
+.copyright {
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+  padding: 15px 0;
+  background-color: #fff;
+}
+
+/* wrapper chỉ cho block giữa */
+.center-block {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
